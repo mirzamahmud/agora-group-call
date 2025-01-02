@@ -9,6 +9,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.5.0"
+  agora_rtm:
+    dependency: "direct main"
+    description:
+      name: agora_rtm
+      sha256: "56d802cd6592a163a90c1a4220e361734fa1a45dfe13536f36f4e81e1b7f5a61"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.2.2"
   async:
     dependency: transitive
     description:

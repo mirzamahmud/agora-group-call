@@ -1,6 +1,7 @@
 import 'package:agora_group_call/config/constants/agora_constant.dart';
 import 'package:get/get.dart';
 import 'package:agora_rtc_engine/agora_rtc_engine.dart';
+import 'package:agora_rtm/agora_rtm.dart';
 
 class VideoCallController extends GetxController {
   // ================================ variables =====================================
@@ -10,6 +11,8 @@ class VideoCallController extends GetxController {
 
   // ================================ agora variable ================================
   late final RtcEngine engine;
+  late RtmClient rtmClient;
+  late RtmChannelType rtmChannel;
 
   // ================================ initialize agora ==============================
   Future<void> initializeAgora() async {
