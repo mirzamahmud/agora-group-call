@@ -58,7 +58,7 @@ class RoleView extends GetView<RoleController> {
           ),
         ),
         floatingActionButton: FloatingActionButton.extended(
-          onPressed: () {},
+          onPressed: () => controller.joinCall(),
           backgroundColor: Colors.blue,
           label: const Text(
             'Join',
